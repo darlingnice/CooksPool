@@ -1,0 +1,6 @@
+source venv/bin/activate
+./manage.py runserver
+./manage.py makemigrations --dry-run email_as_auth_model
+./manage.py migrate email_as_auth_model
+./manage.py makemigrations
+./manage.py migrate
