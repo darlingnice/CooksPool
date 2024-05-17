@@ -4,3 +4,24 @@ source venv/bin/activate
 ./manage.py migrate email_as_auth_model
 ./manage.py makemigrations
 ./manage.py migrate
+
+
+
+git commands
+
+or create a new repository on the command line
+
+echo "# CooksPool" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/darlingnice/CooksPool.git
+git push -u origin main
+
+…or push an existing repository from the command line
+
+git remote add origin https://github.com/darlingnice/CooksPool.git
+git branch -M main
+git push -u origin main
+

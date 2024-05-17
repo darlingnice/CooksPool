@@ -1,0 +1,27 @@
+# Get all users
+GET http://127.0.0.1:8000/api/users/
+Content-Type: application/json
+
+###
+# Geta single user
+GET http://127.0.0.1:8000/api/user/100/
+Content-Type: application/json
+
+###
+
+POST http://127.0.0.1:8000/api/users/
+Content-Type: application/json
+
+{"email":"tryhackme@gmail.com","first_name":"tryhackme","last_name":"tryhackme now","password":"howtokillabirdpath200"}
+
+###
+
+PUT http://127.0.0.1:8000/ap1/user/24/
+Content-Type: application/json
+
+{"id":22,"email":"toomuchguy@gmail.com","first_name":"tryhackme","last_name":"tryhackme now","password":"howtokillabirdpath200"}
+
+###
+DELETE   http://127.0.0.1:8000/api/user/24/
+Content-Type: application/json
+
